@@ -1,0 +1,140 @@
+body {
+    margin: 0px;
+}
+
+.para1 {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+.image-top {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 120px;
+}
+
+.left-right {
+    width: 320px;
+    height: 614px;
+    background-color: rgb(220, 220, 233);
+}
+
+.wordOverImage {
+    position: absolute;
+    top: 150px;
+}
+
+.ableton {
+    font-weight: bold;
+    font-size: 100px;
+    color: #f54e28;
+}
+
+.para  {
+    padding: 0px 280px;
+    /* width: 600px; */
+}
+
+.paraNumberOne {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.paraNumberOne span {
+    color: #0000ff;
+}
+
+.paraNumberTwo {
+    line-height: 1.7rem;
+    font-size: 1.1rem;
+}
+
+/* Music Section */
+.music-background-section {
+    display: grid;
+    height: 800px;
+    grid-template-columns: 2fr 3fr;
+    margin-bottom: 100px;
+}
+
+.musicBackgroundWhite {
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.musicBackgroundWhite > div {
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    z-index: 4;
+}
+
+.musicBackgroundWhite > div > img {
+    width: 600px;
+}
+
+.musicBackgroundYellow {
+    background-color: rgb(255, 255, 170);
+    position: relative;
+}
+
+.musicBackgroundYellow > div {
+    position: absolute;
+    top: 211.655px;
+    left: 250px;
+}
+
+.musicBackgroundYellow > div > img {
+    width: 500px;
+}
+
+/* video-section */
+.video-section {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+
+.video-section > iframe {
+    width: 800px;
+    height: 450px;
+}
+
+/* another section */
+
+
+
+.anotherSection {
+    width: 900px;
+    height: 1000px;
+    background-color: rgba(172, 229, 172, 0.878);
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.anotherSection > div:nth-child(1) > img {
+    width: 500px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+.anotherSection > div:nth-child(2) > img {
+    width: 500px;
+    position: absolute;
+    left: 100px;
+    bottom: 100px;
+}
+
+.anotherSection > div:nth-child(3) > img {
+    width: 600px;
+    position: absolute;
+    top: 200px;
+    bottom: 200px;
+    right: -500px;
+}

@@ -1,0 +1,67 @@
+body {
+    font-family: arial;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 40px;
+    border-bottom: 1px solid rgb(233, 231, 231);
+    box-shadow: 1px 1px 1px rgba(233, 231, 231, 0.75);
+    font-family: arial;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: black;
+}
+
+.more > a {
+    color: rgb(252, 124, 78);
+    text-decoration: none;
+}
+
+.more > a:focus {
+       
+}
+
+.try-live {
+    color: blue;
+}
+
+.loginRegister {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.header-left-flex {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left-link > a {
+    color: black;
+    text-decoration: none;
+}
+
+.header-right-flex {
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutHeader {
+    padding: 20px 40px;
+    display: flex;
+    width: 230px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.aboutHeader > .about {
+    color: rgb(241, 146, 22);
+}
