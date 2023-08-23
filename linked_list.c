@@ -117,6 +117,27 @@ void reverse_recursion(struct Node** node, struct Node* current, struct Node* pr
 }
 
 
+struct Node* merge(struct Node** n1, struct Node* n2){
+    struct Node* c1 = *n1;
+    struct Node* p1 = NULL;
+
+    struct Node* c2 = *n1;
+    struct Node* p2 = NULL;
+
+    if(c1->data > c2->data){
+        p2 = n2->next;
+        n2->next = n1;
+        if(p1 == NULL){
+            // head transfer
+            *n1 = n2;
+        }
+    }
+    else{
+        return merge(n1, n2);
+    }
+}
+
+
 int main(){
     struct Node* head = NULL;
 
